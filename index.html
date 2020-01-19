@@ -5,13 +5,7 @@
 
 <body>
     <style>
-    svg,
-    body {
-        transform: scale(1);
-    }
-
     svg {
-        transform: scale(6);
         position: fixed;
         top: 0;
         bottom: 0;
@@ -62,8 +56,6 @@
     }, 10);
     setTimeout(function() {
         $('.path1').css('stroke-dashoffset', 0);
-
-        (2 * length)
         $('.path2').css('stroke-dashoffset', (2 * length));
 
     }, 2000);
